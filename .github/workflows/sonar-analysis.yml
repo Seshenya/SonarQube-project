@@ -27,9 +27,6 @@ jobs:
 
     - name: Set up Maven
       uses: actions/setup-java@v2
-      with:
-        java-version: '11'
-        distribution: 'adoptopenjdk'
         
     - name: Install dependencies
       run: mvn install
