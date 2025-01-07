@@ -21,6 +21,9 @@ jobs:
       uses: actions/setup-java@v2
       with:
         java-version: '11'
+        distribution: 'temurin'
+        architecture: 'x64'
+        overwrite-settings: true
 
     - name: Set up Maven
       uses: actions/setup-java@v2
