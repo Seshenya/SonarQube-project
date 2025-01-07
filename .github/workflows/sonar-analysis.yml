@@ -37,5 +37,5 @@ jobs:
       run: |
         mvn sonar:sonar \
           -Dsonar.projectKey=my-intellij-project \
-          -Dsonar.host.url=http://localhost:9000 \
+          -Dsonar.host.url=http:// 172.29.96.1:9000 \
           -Dsonar.login=$SONAR_TOKEN
